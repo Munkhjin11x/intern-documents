@@ -48,7 +48,7 @@ const intoduction = () => {
               </div>
                 <hr />
                 <div className="flex justify-end">
-            <Button label="Apollo Client" path='/graphql/codegen'/>
+            <Button label="Codegen" path='/graphql/codegen'/>
                 </div>
             </div>
             </div>
