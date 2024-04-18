@@ -1,13 +1,14 @@
 export const NX = 
 [{
-    title:'enviroments',
-    path:'/nxmonorepo/enviroments'
+    title:'introdcution',
+    path:'/nxmonorepo/introdcution'
 },
 {
     title:'folder structure',
     path:'/nxmonorepo/folderstructure'
 },
 {
-    title:'introdcution',
-    path:'/nxmonorepo/introdcution'
+   
+    title:'environments',
+    path:'/nxmonorepo/environments'
 }]

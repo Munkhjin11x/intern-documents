@@ -44,7 +44,7 @@ const Sidebar = () => {
   return (
     <div className=" h-screen">
         <div className="flex  border-b-[1px] border-r-[1px] border-[#2F2F2F]  ">
-        <div className="flex h-[64px] w-[299px] justify-center items-center">
+        <div className="flex h-[64px] w-[299px] gap-2 justify-center items-center">
         <Logo/>
             <Pinecone/>
         </div>
