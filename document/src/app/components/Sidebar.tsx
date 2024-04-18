@@ -59,22 +59,22 @@ const Sidebar = () => {
               ))}
             </ul>
           )}
-                <p onClick={toggleNx} className="cursor-pointer hover:bg-[#252525] text-[15px] font-medium">{renderIcon(showNX)}NX Monorepo </p>
+                {/* <p onClick={toggleNx} className="cursor-pointer hover:bg-[#252525] text-[15px] font-medium">{renderIcon(showNX)}NX Monorepo </p>
           {showNX && (
             <ul className='flex flex-col gap-[2px] border-l-[1px] border-[#2F2F2F]'>
               {NX.map((e)=>(
                 <li onClick={()=> router.push(`${e.path}`)} className="px-[27px] cursor-pointer hover:bg-[#252525] ease-in-out duration-300">{e.title} <ArrowForwardIosIcon sx={{color:'#4ADF7E',height:"16px"}}/></li>
               ))}
             </ul>
-          )}
-                <p  onClick={togglePr} className="cursor-pointer text-[15px]  hover:bg-[#252525] font-medium"> {renderIcon(showPr)}Pull Request </p>
+          )} */}
+                {/* <p  onClick={togglePr} className="cursor-pointer text-[15px]  hover:bg-[#252525] font-medium"> {renderIcon(showPr)}Pull Request </p>
           {showPr && (
             <ul className='flex flex-col gap-[2px] border-l-[1px] border-[#2F2F2F]'>
               {pr.map((e)=>(
                 <li onClick={()=> router.push(`${e.path}`)} className="px-[27px] cursor-pointer hover:bg-[#252525] ease-in-out duration-300">{e.title} <ArrowForwardIosIcon sx={{color:'#4ADF7E',height:"16px"}}/></li>
               ))}
             </ul>
-          )}
+          )} */}
                 <p onClick={toggleTest} className="cursor-pointer text-[15px]  hover:bg-[#252525] font-medium">   {renderIcon(showTest)}Testing</p>
           {showTest && (
             <ul className='flex flex-col gap-[2px] border-l-[1px] border-[#2F2F2F]'>
