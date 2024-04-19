@@ -1,17 +1,18 @@
 "use client ";
 import Arrow from "@/app/assets/Arrow";
+import Button from "@/app/components/Button";
 import Sidebar from "@/app/components/Sidebar";
 
 const intoduction = () => {
 
   return (
     <>
-      <div className="bg-[#121212] flex justify-between  ">
+      <div className="bg-[#121212] flex   ">
         <Sidebar/>
         <div className=" flex justify-center  ">
-          <div className="w-[1900px] flex  flex-col" >
+          <div className=" flex  flex-col" >
             <div className="border-t-[1px] mt-[64px] border-[#2F2F2F]  "></div>
-            <div className=" px-[400px] w-[1700px]">     
+            <div className=" w-[1000px] ml-[200px]">     
                 <div className="flex flex-col justify-between h-[98px]  mt-[64px] ">
               <h1 className="text-white text-[42px] font-bold    ">
               Jest testing
@@ -83,7 +84,8 @@ const intoduction = () => {
               </div>
                 <hr />
                 <div className="flex justify-end">
-                <button className="text-[#4ADF7E]">Apollo Server <Arrow/></button>
+                <Button label="Apollo Server" path='/graphql/apolloserver'/>
+
                 </div>
             </div>
             </div>
